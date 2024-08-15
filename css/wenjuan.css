@@ -1,0 +1,13 @@
+.container {
+	width: 200px;
+	height: 30px;
+	/*style="display: flex;justify-content: center;"*/  
+    display: flex; /* 启用Flexbox */  
+    justify-content: center; /* 水平居中 */
+    background-color: #09F;
+    font-weight:bold;
+	font-family:"微软雅黑"; 
+    /*align-items: center; /* 垂直居中 */  
+    /*height: 100vh; /* 假设你希望它在视窗的高度中居中，可以根据需要调整 */  
+    /* 或者你可以给.center-container设置一个具体的高度，比如height: 200px; */  
+}
